@@ -79,7 +79,7 @@ window.TWCalc_inject = function () {
             updateURL: "https://tw-calc.net/script/TW-Calc.user.js",
             updateURL_SPONSORED: "http://adf.ly/1INaPB",
             shortName: "tw-calc",
-            birthday_enabled: true,
+            birthday_enabled: false,
             birthday: {
                 month: 11,
                 day: 16
