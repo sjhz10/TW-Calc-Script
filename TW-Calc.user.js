@@ -470,11 +470,7 @@ window.TWCalc_inject = function () {
             if (typeof TW_Calc.api === "undefined") {
 
                 TW_Calc.api = TheWestApi.register(TW_Calc.shortName, TW_Calc.scriptName, TW_Calc.gameMIN, TW_Calc.gameMAX, TW_Calc.author.join(", "), TW_Calc.website);
-
-                var pls = '<div style="font-size: 16px; text-align: center; margin-bottom: 15px">If you like our webpage and script, please donate for server costsand further development, we will be very grateful to you. We are funding everything from our own resources. All your donations will be appreciated and used in best way possible to ensure future development of this script.<div style="font-weight: bold; font-size: 20px;">Thank you!</div></div>' +
-                    '<div style="text-align: center"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="LRG4X3PGMYHZY"><input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"><img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></form></div>';
-
-                TW_Calc.api.setGui('<div style="font-size: 20px; font-family: Georgia, \'Times New Roman\', serif; text-align: center; margin: 15px; text-shadow: 1px 1px 0 #FFCC66, 1px 1px 2px #000000;"><a href="' + TW_Calc.website + '">' + TW_Calc.website + '</a></br></br><a href="javascript:TW_Calc.Settings.open()">' + TW_Calc.getTranslation(3) + '</a></br></div>' + pls);
+                TW_Calc.api.setGui('<div style="font-size: 20px; font-family: Georgia, \'Times New Roman\', serif; text-align: center; margin: 15px; text-shadow: 1px 1px 0 #FFCC66, 1px 1px 2px #000000;"><a href="' + TW_Calc.website + '">' + TW_Calc.website + '</a></br></br><a href="javascript:TW_Calc.Settings.open()">' + TW_Calc.getTranslation(3) + '</a></br></div>');
 
             }
 
